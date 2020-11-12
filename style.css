@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-navbar > li{
+    margin: 20px;
+    color: #21666B;
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.item-SignIn > a{
+    margin: 8px;
+    text-decoration: none;
+    color: #025157;
+}
+
+.item-SignIn > button{
+    color: #ffffff;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px;
+    background-color: #025157;
+}
+
+.features{
+    margin: 40px;
+    padding: 10px;
+    display: grid;
+    grid-template: repeat(2, 300px) / repeat(2, 1fr);
+}
+
+
